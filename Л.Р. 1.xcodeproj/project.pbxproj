@@ -88,7 +88,7 @@
 		C4786D762703261600052D44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					C4786D7D2703261600052D44 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -239,6 +239,7 @@
 		C4786D862703261600052D44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQUZ656MBL;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -249,6 +250,7 @@
 		C4786D872703261600052D44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQUZ656MBL;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -266,7 +268,7 @@
 				C4786D842703261600052D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C4786D852703261600052D44 /* Build configuration list for PBXNativeTarget "Л.Р. 1" */ = {
 			isa = XCConfigurationList;
@@ -275,7 +277,7 @@
 				C4786D872703261600052D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
